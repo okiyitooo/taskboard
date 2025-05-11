@@ -31,3 +31,23 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### frontend ###
+taskboard-frontend/node_modules
+
+taskboard-frontend/.pnp
+taskboard-frontend/.pnp.js
+# testing
+taskboard-frontend/coverage
+# production
+taskboard-frontend/build
+# misc
+taskboard-frontend/.DS_Store
+taskboard-frontend/.env.local
+taskboard-frontend/.env.development.local
+taskboard-frontend/.env.test.local
+taskboard-frontend/.env.production.local
+
+taskboard-frontend/npm-debug.log*
+taskboard-frontend/yarn-debug.log*
+taskboard-frontend/yarn-error.log*
